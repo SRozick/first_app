@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root to:"pages#home"
+#  root to:"pages#home"
+  root "pages#home"
+
   # this command sends to pages controller, home action
 
   
